@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: dindin_web
+    container_name: dindin
     ports:
       - '8000:8000'
     restart: unless-stopped
